@@ -1043,21 +1043,72 @@
 
 	\begin{frame}
 	\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{itemize}
+			\item<1->[] \scriptsize{Calling backing services is a heavy process, and to overcome this issue; you need to have some shared data store to be fully managed in run-time across all instances.}
+			\vspace{1mm}
+			\item<2-> \scriptsize{How can multiple instances within multiple apps share something?}
+			\item<3-> \scriptsize{Why not just loading on startup? \textit{In-memory caching}}
+			\item<4-> \scriptsize{Caching service is the solution. \textit{Distributed caching}}
+		\end{itemize}
+	\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+			\begin{figure}[h]
+				\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-1.PNG}
+				\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-2.PNG}
+			\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-3.PNG}
+			\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-4.PNG}
+			\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+
+	\begin{frame}
+	\frametitle{Data Sharing and Management}
 	Caching Pattern
 	\begin{itemize}
-		\item<1->[] \scriptsize{Calling backing services is a heavy process, and to overcome this issue; caching is the solution to save time, you need to have some shared data source to be fully managed in runtime across all instances.}
+		\item<1->[] \scriptsize{Calling backing services is a heavy process, and to overcome this issue; you need to have some shared data store to be fully managed in run-time across all instances.}
 		\vspace{1mm}
-		\item<2-> \scriptsize{How can multiple instances within multiple apps share something?}
-		\item<3-> \scriptsize{Why not just loading on startup?}
-		\item<4-> \scriptsize{Shared data source like Redis, Memcached and Queues can be solution for that, but you shall consider also availability and data consistency}
-		\item<4->[]
+		\item<1-> \scriptsize{How can multiple instances within multiple apps share something?}
+		\item<1-> \scriptsize{Why not just loading on startup? \textit{In-memory caching}}
+		\item<1-> \scriptsize{Caching service is the solution. \textit{Distributed caching}}
+		\item<3-> \scriptsize{\alert{You should consider also availability and data consistency}}
+		\item<2->[]
 		\begin{figure}[h]
 			\includegraphics[width=100mm,height= 40mm, scale=1]{img/shared-ds.PNG}
 			\caption{Shared DS Market Availability}
 		\end{figure}
 	\end{itemize}
 	\end{frame}
-
+	
 	
 
 	\subsection {Deployment and Hosting}
