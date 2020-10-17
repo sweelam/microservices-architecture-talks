@@ -140,31 +140,43 @@
 \headcommand {\beamer@framepages {120}{124}}
 \headcommand {\slideentry {2}{6}{19}{125/128}{Data Sharing and Management}{0}}
 \headcommand {\beamer@framepages {125}{128}}
-\headcommand {\beamer@subsectionpages {80}{128}}
-\headcommand {\beamer@subsectionentry {0}{2}{7}{129}{Deployment and Hosting}}
-\headcommand {\slideentry {2}{7}{1}{129/133}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {129}{133}}
-\headcommand {\slideentry {2}{7}{2}{134/134}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {134}{134}}
-\headcommand {\slideentry {2}{7}{3}{135/135}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {135}{135}}
-\headcommand {\beamer@subsectionpages {129}{135}}
-\headcommand {\beamer@subsectionentry {0}{2}{8}{136}{Monitoring}}
-\headcommand {\slideentry {2}{8}{1}{136/136}{Monitoring}{0}}
+\headcommand {\slideentry {2}{6}{20}{129/129}{Data Sharing and Management}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\slideentry {2}{6}{21}{130/130}{Data Sharing and Management}{0}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\slideentry {2}{6}{22}{131/131}{Data Sharing and Management}{0}}
+\headcommand {\beamer@framepages {131}{131}}
+\headcommand {\slideentry {2}{6}{23}{132/132}{Data Sharing and Management}{0}}
+\headcommand {\beamer@framepages {132}{132}}
+\headcommand {\slideentry {2}{6}{24}{133/135}{Data Sharing and Management}{0}}
+\headcommand {\beamer@framepages {133}{135}}
+\headcommand {\slideentry {2}{6}{25}{136/136}{Data Sharing and Management}{0}}
 \headcommand {\beamer@framepages {136}{136}}
-\headcommand {\beamer@sectionpages {17}{136}}
-\headcommand {\beamer@subsectionpages {136}{136}}
-\headcommand {\sectionentry {3}{Microservices in Actions}{137}{Microservices in Actions}{0}}
-\headcommand {\beamer@subsectionpages {137}{136}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{137}{Project Structure}}
-\headcommand {\beamer@subsectionpages {137}{136}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{137}{Framework and Tools}}
-\headcommand {\slideentry {3}{2}{1}{137/137}{Framework and Tools}{0}}
-\headcommand {\beamer@framepages {137}{137}}
-\headcommand {\slideentry {3}{2}{2}{138/138}{Framework and Tools}{0}}
-\headcommand {\beamer@framepages {138}{138}}
-\headcommand {\beamer@partpages {1}{138}}
-\headcommand {\beamer@subsectionpages {137}{138}}
-\headcommand {\beamer@sectionpages {137}{138}}
-\headcommand {\beamer@documentpages {138}}
-\headcommand {\gdef \inserttotalframenumber {64}}
+\headcommand {\beamer@subsectionpages {80}{136}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{137}{Deployment and Hosting}}
+\headcommand {\slideentry {2}{7}{1}{137/141}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {137}{141}}
+\headcommand {\slideentry {2}{7}{2}{142/142}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {142}{142}}
+\headcommand {\slideentry {2}{7}{3}{143/143}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {143}{143}}
+\headcommand {\beamer@subsectionpages {137}{143}}
+\headcommand {\beamer@subsectionentry {0}{2}{8}{144}{Monitoring}}
+\headcommand {\slideentry {2}{8}{1}{144/144}{Monitoring}{0}}
+\headcommand {\beamer@framepages {144}{144}}
+\headcommand {\beamer@sectionpages {17}{144}}
+\headcommand {\beamer@subsectionpages {144}{144}}
+\headcommand {\sectionentry {3}{Microservices in Actions}{145}{Microservices in Actions}{0}}
+\headcommand {\beamer@subsectionpages {145}{144}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{145}{Project Structure}}
+\headcommand {\beamer@subsectionpages {145}{144}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{145}{Framework and Tools}}
+\headcommand {\slideentry {3}{2}{1}{145/145}{Framework and Tools}{0}}
+\headcommand {\beamer@framepages {145}{145}}
+\headcommand {\slideentry {3}{2}{2}{146/146}{Framework and Tools}{0}}
+\headcommand {\beamer@framepages {146}{146}}
+\headcommand {\beamer@partpages {1}{146}}
+\headcommand {\beamer@subsectionpages {145}{146}}
+\headcommand {\beamer@sectionpages {145}{146}}
+\headcommand {\beamer@documentpages {146}}
+\headcommand {\gdef \inserttotalframenumber {70}}

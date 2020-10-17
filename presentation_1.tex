@@ -1043,21 +1043,88 @@
 
 	\begin{frame}
 	\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{itemize}
+			\item<1->[] \scriptsize{Calling backing services is a heavy process, and to overcome this issue; you need to have some shared data store to be fully managed in run-time across all instances.}
+			\vspace{1mm}
+			\item<2-> \scriptsize{How can multiple instances within multiple apps share something?}
+			\item<3-> \scriptsize{Why not just loading on startup? \textit{In-memory caching}}
+			\item<4-> \scriptsize{Caching service is the solution. \textit{Distributed caching}}
+		\end{itemize}
+	\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+			\begin{figure}[h]
+				\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-1.PNG}
+				\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-2.PNG}
+			\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-3.PNG}
+			\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Data Sharing and Management}
+		Caching Pattern
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/flow-4.PNG}
+			\caption{Typical Scenario}
+		\end{figure}
+	\end{frame}
+
+
+	\begin{frame}
+	\frametitle{Data Sharing and Management}
 	Caching Pattern
 	\begin{itemize}
-		\item<1->[] \scriptsize{Calling backing services is a heavy process, and to overcome this issue; caching is the solution to save time, you need to have some shared data source to be fully managed in runtime across all instances.}
+		\item<1->[] \scriptsize{Calling backing services is a heavy process, and to overcome this issue; you need to have some shared data store to be fully managed in run-time across all instances.}
 		\vspace{1mm}
-		\item<2-> \scriptsize{How can multiple instances within multiple apps share something?}
-		\item<3-> \scriptsize{Why not just loading on startup?}
-		\item<4-> \scriptsize{Shared data source like Redis, Memcached and Queues can be solution for that, but you shall consider also availability and data consistency}
-		\item<4->[]
+		\item<1-> \scriptsize{How can multiple instances within multiple apps share something?}
+		\item<1-> \scriptsize{Why not just loading on startup? \textit{In-memory caching}}
+		\item<1-> \scriptsize{Caching service is the solution. \textit{Distributed caching}}
+		\item<3-> \scriptsize{\alert{You should consider also availability and data consistency}}
+		\item<2->[]
 		\begin{figure}[h]
 			\includegraphics[width=100mm,height= 40mm, scale=1]{img/shared-ds.PNG}
 			\caption{Shared DS Market Availability}
 		\end{figure}
 	\end{itemize}
 	\end{frame}
-
+	
+	\begin{frame}
+		\frametitle{The Twelve-Factor App}
+		\begin{enumerate}
+			\setcounter{enumi}{7}
+			\item Concurrency \\
+			\hspace{2mm} \scriptsize{Build your app like unix process model based}
+			\lstinputlisting[language=Bash]{example.sh}	
+			\begin{itemize}
+				\item<1-> \scriptsize {Download the application, Install and Start}
+				\item<1->[]
+				\begin{figure}[h]
+					\includegraphics[width=100mm,height= 55mm, scale=1]{img/process-types.png}
+				\end{figure}
+			\end{itemize}
+		\end{enumerate}
+	\end{frame}
 	
 
 	\subsection {Deployment and Hosting}
@@ -1129,9 +1196,21 @@
 \frametitle{References}
 \footnotesize{
 \begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-%\bibitem[Smith, 2012]{p1} John Smith (2012)
-%\newblock Title of the publication
-%\newblock \emph{Journal Name} 12(3), 45 -- 678.
+\bibitem[Sam Newman, 2015]{p1} Sam Newman, (2015)
+\newblock Building Microservices: Designing Fine-Grained Systems
+\newblock \emph{O'Reilly}
+
+\bibitem[Morgan Bruce, Paulo A. Pereira, 2018]{p1} Morgan Bruce, Paulo A. Pereira, (2085)
+\newblock Microservices in Action
+\newblock \emph{Manning Publications}
+
+\bibitem[John Carnell, 2015]{p1} John Carnell, (2017)
+\newblock Spring Microservices in Action
+\newblock \emph{Manning Publications}
+
+\bibitem[John Carnell, 2015]{p1} Jez Humble, David Farley (2010)
+\newblock Continuous Delivery
+\newblock \emph{Addison-Wesley Professional}
 \end{thebibliography}
 }
 \end{frame}
@@ -1139,7 +1218,7 @@
 %------------------------------------------------
 
 \begin{frame}
-\Huge{\centerline{The End}}
+\Huge{\centerline{Thanks for Watching}}
 \end{frame}
 
 %----------------------------------------------------------------------------------------

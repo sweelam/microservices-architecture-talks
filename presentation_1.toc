@@ -10,8 +10,8 @@
 \beamer@subsectionintoc {2}{4}{Externalized Configurations}{36}{0}{2}
 \beamer@subsectionintoc {2}{5}{Circuit Breaker Pattern}{38}{0}{2}
 \beamer@subsectionintoc {2}{6}{Data Sharing and Management}{80}{0}{2}
-\beamer@subsectionintoc {2}{7}{Deployment and Hosting}{129}{0}{2}
-\beamer@subsectionintoc {2}{8}{Monitoring}{136}{0}{2}
-\beamer@sectionintoc {3}{Microservices in Actions}{137}{0}{3}
-\beamer@subsectionintoc {3}{1}{Project Structure}{137}{0}{3}
-\beamer@subsectionintoc {3}{2}{Framework and Tools}{137}{0}{3}
+\beamer@subsectionintoc {2}{7}{Deployment and Hosting}{137}{0}{2}
+\beamer@subsectionintoc {2}{8}{Monitoring}{144}{0}{2}
+\beamer@sectionintoc {3}{Microservices in Actions}{145}{0}{3}
+\beamer@subsectionintoc {3}{1}{Project Structure}{145}{0}{3}
+\beamer@subsectionintoc {3}{2}{Framework and Tools}{145}{0}{3}

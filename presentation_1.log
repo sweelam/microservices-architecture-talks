@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.10.11)  11 OCT 2020 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.10.11)  17 OCT 2020 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1668,92 +1668,151 @@ Package pdftex.def Info: img/event-sourcing-overview.png  used on input line 10
  [124
 
 ]
-<img/shared-ds.PNG, id=3454, 962.09438pt x 497.60907pt>
-File: img/shared-ds.PNG Graphic file (type png)
-<use img/shared-ds.PNG>
-Package pdftex.def Info: img/shared-ds.PNG  used on input line 1059.
-(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
- [125
+Overfull \vbox (125.0578pt too high) detected at line 1055
+ []
 
- <./img/shared-ds.PNG>]
-File: img/shared-ds.PNG Graphic file (type png)
-<use img/shared-ds.PNG>
-Package pdftex.def Info: img/shared-ds.PNG  used on input line 1059.
-(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
- [126
+[125
 
 ]
-File: img/shared-ds.PNG Graphic file (type png)
-<use img/shared-ds.PNG>
-Package pdftex.def Info: img/shared-ds.PNG  used on input line 1059.
-(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
- [127
+Overfull \vbox (125.0578pt too high) detected at line 1055
+ []
+
+[126
 
 ]
-File: img/shared-ds.PNG Graphic file (type png)
-<use img/shared-ds.PNG>
-Package pdftex.def Info: img/shared-ds.PNG  used on input line 1059.
-(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
+Overfull \vbox (125.0578pt too high) detected at line 1055
+ []
+
+[127
+
+]
+Overfull \vbox (125.0578pt too high) detected at line 1055
+ []
 
 [128
 
 ]
-Overfull \vbox (152.78618pt too high) detected at line 1075
- []
+<img/flow-1.PNG, id=3560, 1014.03844pt x 636.87938pt>
+File: img/flow-1.PNG Graphic file (type png)
+<use img/flow-1.PNG>
+Package pdftex.def Info: img/flow-1.PNG  used on input line 1064.
+(pdftex.def)             Requested size: 1014.03596pt x 636.87782pt.
+ [129
 
-[129
+ <./img/flow-1.PNG>]
+<img/flow-2.PNG, id=3588, 991.45406pt x 634.62094pt>
+File: img/flow-2.PNG Graphic file (type png)
+<use img/flow-2.PNG>
+Package pdftex.def Info: img/flow-2.PNG  used on input line 1073.
+(pdftex.def)             Requested size: 991.45163pt x 634.61938pt.
+ [130
 
-]
-Overfull \vbox (152.78618pt too high) detected at line 1075
- []
+ <./img/flow-2.PNG>]
+<img/flow-3.PNG, id=3617, 978.65625pt x 630.10406pt>
+File: img/flow-3.PNG Graphic file (type png)
+<use img/flow-3.PNG>
+Package pdftex.def Info: img/flow-3.PNG  used on input line 1082.
+(pdftex.def)             Requested size: 978.65387pt x 630.10252pt.
+ [131
 
-[130
+ <./img/flow-3.PNG>]
+<img/flow-4.PNG, id=3645, 977.15062pt x 630.85687pt>
+File: img/flow-4.PNG Graphic file (type png)
+<use img/flow-4.PNG>
+Package pdftex.def Info: img/flow-4.PNG  used on input line 1091.
+(pdftex.def)             Requested size: 977.14824pt x 630.85533pt.
+ [132
 
-]
-Overfull \vbox (152.78618pt too high) detected at line 1075
- []
+ <./img/flow-4.PNG>]
+<img/shared-ds.PNG, id=3673, 962.09438pt x 497.60907pt>
+File: img/shared-ds.PNG Graphic file (type png)
+<use img/shared-ds.PNG>
+Package pdftex.def Info: img/shared-ds.PNG  used on input line 1110.
+(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
+ [133
 
-[131
-
-]
-Overfull \vbox (152.78618pt too high) detected at line 1075
- []
-
-[132
-
-]
-Overfull \vbox (152.78618pt too high) detected at line 1075
- []
-
-[133
-
-]
-<img/service-orch.png, id=3694, 976.39781pt x 166.37157pt>
-File: img/service-orch.png Graphic file (type png)
-<use img/service-orch.png>
-Package pdftex.def Info: img/service-orch.png  used on input line 1095.
-(pdftex.def)             Requested size: 976.39543pt x 166.37114pt.
+ <./img/shared-ds.PNG>]
+File: img/shared-ds.PNG Graphic file (type png)
+<use img/shared-ds.PNG>
+Package pdftex.def Info: img/shared-ds.PNG  used on input line 1110.
+(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
  [134
 
- <./img/service-orch.PNG>]
-Overfull \vbox (123.457pt too high) detected at line 1106
- []
-
-[135
+]
+File: img/shared-ds.PNG Graphic file (type png)
+<use img/shared-ds.PNG>
+Package pdftex.def Info: img/shared-ds.PNG  used on input line 1110.
+(pdftex.def)             Requested size: 962.09203pt x 497.60785pt.
+ [135
 
 ]
-Overfull \vbox (123.457pt too high) detected at line 1118
- []
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+) (./example.sh)
+<img/process-types.png, id=3754, 421.575pt x 384.43625pt>
+File: img/process-types.png Graphic file (type png)
+<use img/process-types.png>
+Package pdftex.def Info: img/process-types.png  used on input line 1127.
+(pdftex.def)             Requested size: 421.57396pt x 384.4353pt.
 
 [136
 
-]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 1137.
+ <./img/process-types.png>]
+Overfull \vbox (152.78618pt too high) detected at line 1142
+ []
 
 [137
 
-] [138
+]
+Overfull \vbox (152.78618pt too high) detected at line 1142
+ []
+
+[138
+
+]
+Overfull \vbox (152.78618pt too high) detected at line 1142
+ []
+
+[139
+
+]
+Overfull \vbox (152.78618pt too high) detected at line 1142
+ []
+
+[140
+
+]
+Overfull \vbox (152.78618pt too high) detected at line 1142
+ []
+
+[141
+
+]
+<img/service-orch.png, id=3915, 976.39781pt x 166.37157pt>
+File: img/service-orch.png Graphic file (type png)
+<use img/service-orch.png>
+Package pdftex.def Info: img/service-orch.png  used on input line 1162.
+(pdftex.def)             Requested size: 976.39543pt x 166.37114pt.
+ [142
+
+ <./img/service-orch.PNG>]
+Overfull \vbox (123.457pt too high) detected at line 1173
+ []
+
+[143
+
+]
+Overfull \vbox (123.457pt too high) detected at line 1185
+ []
+
+[144
+
+] [145
+
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [146
 
 ]
 \tf@nav=\write6
@@ -1765,14 +1824,14 @@ LaTeX Warning: Empty `thebibliography' environment on input line 1137.
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1226.
  (./presentation_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1226.
 
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
-(rerunfilecheck)             Checksum: 3CDAC8AFC18D2C49ABED41CB3A9BF650;1174.
+(rerunfilecheck)             Checksum: 18C8E0A85FAF7D564ADDCB1491AB3977;1174.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1782,11 +1841,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19891 strings out of 493737
- 367917 string characters out of 6153302
- 707602 words of memory out of 5000000
- 22875 multiletter control sequences out of 15000+600000
- 13258 words of font info for 49 fonts, out of 8000000 for 9000
+ 20071 strings out of 493737
+ 370970 string characters out of 6153302
+ 709047 words of memory out of 5000000
+ 23025 multiletter control sequences out of 15000+600000
+ 13615 words of font info for 50 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  56i,15n,63p,781b,1743s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
@@ -1797,12 +1856,13 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb>
-Output written on presentation_1.pdf (138 pages, 2912232 bytes).
+blic/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on presentation_1.pdf (146 pages, 3176309 bytes).
 PDF statistics:
- 3925 PDF objects out of 4296 (max. 8388607)
- 3673 compressed objects within 37 object streams
- 296 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4163 PDF objects out of 4296 (max. 8388607)
+ 3887 compressed objects within 39 object streams
+ 313 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 
