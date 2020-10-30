@@ -1114,7 +1114,7 @@
 		\begin{enumerate}
 			\setcounter{enumi}{7}
 			\item Concurrency \\
-			\hspace{2mm} \scriptsize{Build your app like unix process model based}
+			\hspace{2mm} \scriptsize{Build your app processes like unix process model based}
 			\lstinputlisting[language=Bash]{example.sh}	
 			\begin{itemize}
 				\item<1-> \scriptsize {Download the application, Install and Start}
@@ -1125,12 +1125,33 @@
 			\end{itemize}
 		\end{enumerate}
 	\end{frame}
+
+	\begin{frame}
+		\frametitle{The Twelve-Factor App}
+			\begin{enumerate}
+				\setcounter{enumi}{8}
+				\item Logs \\
+				\begin{itemize}
+					\item<1->[] \scriptsize{Logs are the app assets, and should be handled in a special way}
+					\item<2-> \scriptsize {Logs are streams, and it is not the app job how to save them?}
+					\item<3-> \scriptsize {A dedicated process should do this, and app work is output logs only}
+					\item<4-> \scriptsize {You should give attention to what you are logging, that is you may need this data later, even on long term for analysis and reporting}
+					\item<5-> \scriptsize {Today we have some good dedicated software which can aggregate files from different locations, like Logstash and Splunk}
+					\item<6-> \scriptsize {Viewing the logs with reports also are different task with different good software like Kibana, Datadog, Fluentd, and others }
+					\item<2->[]
+					\begin{figure}[h]
+						\includegraphics[width=90mm,height= 45mm, scale=1]{img/logs.png}
+					\end{figure}
+				\end{itemize}
+			\end{enumerate}
+			\vspace{100mm}
+	\end{frame}
 	
 
 	\subsection {Deployment and Hosting}
 		\begin{frame}
 			\frametitle{Service Orchestrators}
-				An orchestrator handles tasks related to deploying and managing a set of services, with Orchestrator you can 
+				An orchestrator handles tasks of deploying and managing a set of services. With orchestrator you can 
 				\begin{itemize}
 					\item<1-> Placing services on nodes. 
 					\item<2-> Monitoring the health of services and restarting unhealthy services.
