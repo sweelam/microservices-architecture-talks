@@ -156,11 +156,9 @@
 \headcommand {\beamer@framepages {137}{142}}
 \headcommand {\beamer@subsectionpages {80}{142}}
 \headcommand {\beamer@subsectionentry {0}{2}{7}{143}{Deployment and Hosting}}
-\headcommand {\slideentry {2}{7}{1}{143/147}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {143}{147}}
-\headcommand {\slideentry {2}{7}{2}{148/148}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {148}{148}}
-\headcommand {\slideentry {2}{7}{3}{149/149}{Deployment and Hosting}{0}}
+\headcommand {\slideentry {2}{7}{1}{143/148}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {143}{148}}
+\headcommand {\slideentry {2}{7}{2}{149/149}{Deployment and Hosting}{0}}
 \headcommand {\beamer@framepages {149}{149}}
 \headcommand {\beamer@subsectionpages {143}{149}}
 \headcommand {\beamer@subsectionentry {0}{2}{8}{150}{Monitoring}}
@@ -181,4 +179,4 @@
 \headcommand {\beamer@subsectionpages {151}{152}}
 \headcommand {\beamer@sectionpages {151}{152}}
 \headcommand {\beamer@documentpages {152}}
-\headcommand {\gdef \inserttotalframenumber {71}}
+\headcommand {\gdef \inserttotalframenumber {70}}
