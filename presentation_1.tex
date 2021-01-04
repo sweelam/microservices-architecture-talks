@@ -1147,7 +1147,83 @@
 			\end{enumerate}
 			\vspace{100mm}
 	\end{frame}
-	
+
+	\begin{frame}
+		\frametitle{The Twelve-Factor App}
+		\begin{enumerate}
+			\setcounter{enumi}{9}
+			\item Disposability \\
+			\begin{itemize}
+				\item<1->[] \scriptsize{Maximize robustness with fast startup and \textbf{graceful} shutdown}
+				\item<2-> \scriptsize {App’s processes are disposable, meaning they can be started or stopped at a moment’s notice.}
+				\item<3-> \scriptsize {Processes should strive to minimize startup time. Ideally, a process takes a few seconds from the time to launch until the process is up and ready to receive requests or jobs}
+				\item<4-> \scriptsize {Processes shut down gracefully when they receive a Shutdown signal}
+				\item<5-> \scriptsize {Worker process, graceful shutdown is achieved by returning the current job to the work queue. For example}
+				\item<6->[] \scriptsize {On RabbitMQ the worker can send a NACK; on Beanstalkd, the job is returned to the queue automatically whenever a worker disconnects. Implicit in this model is that all jobs are reentrant, which typically is achieved by wrapping the results in a transaction, or making the operation idempotent.	
+				}
+				\vspace{1mm}
+				\item<7-> \scriptsize{Processes should also be robust against sudden death, in the case of a failure in the underlying hardware. A recommended approach is use of a robust queueing backend, such as Beanstalkd, that returns jobs to the queue when clients disconnect or time out.}
+			\end{itemize}
+		\end{enumerate}
+		\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{The Twelve-Factor App}
+		\begin{enumerate}
+			\setcounter{enumi}{10}
+			\item Dev/prod parity \\
+			\begin{itemize}
+				\item<1->[] \scriptsize{Keep development, staging, and production as similar as possible}
+				\vspace{5mm}
+				\item<1->[] 
+				\begin{figure}[h]
+					\includegraphics[width=100mm,scale=1]{img/release.png}
+				\end{figure}
+			\end{itemize}
+		\end{enumerate}
+		\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{The Twelve-Factor App}
+		\begin{enumerate}
+			\setcounter{enumi}{10}
+			\item Dev/prod parity \\
+			\begin{itemize}
+				\item<1->[] \scriptsize{Keep development, staging, and production as similar as possible}
+				\item<1-> \scriptsize {The twelve-factor app is designed for \textbf{continuous deployment}}
+				\item<2-> \scriptsize {\textbf{The time gap:} A developer may work on code that takes days, weeks, or even months to go into production}
+				\item<3-> \scriptsize {\textbf{The personnel gap:} Developers write code, ops engineers deploy it.}
+				\item<4-> \scriptsize {\textbf{The tools gap:} Developers may be using a stack like Nginx, SQLite, and OS X, while the production deploy uses Apache, MySQL, and Linux.}
+				\item<1->[] 
+				\begin{figure}[h]
+					\includegraphics[width=100mm,height=48mm ,scale=1]{img/cdv-cdep.png}
+				\end{figure}
+			\end{itemize}
+		\end{enumerate}
+		\tiny{https://www.atlassian.com/continuous-delivery/principles}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{The Twelve-Factor App}
+		\begin{enumerate}
+			\setcounter{enumi}{10}
+			\item Dev/prod parity \\
+			\begin{itemize}
+				\item<1->[] \scriptsize{Keep development, staging, and production as similar as possible}
+				\item<1-> \scriptsize {The twelve-factor app is designed for \textbf{continuous deployment} by keeping the gap between development and production small}
+				\item<2-> \scriptsize {\textbf{Dockerization}}
+				\vspace{2mm}
+				\item<2->[] 
+				\begin{figure}[h]
+					\includegraphics[width=100mm,scale=1]{img/container-vs-vm.jpg}
+				\end{figure}
+			\end{itemize}
+		\end{enumerate}
+		\tiny{https://www.backblaze.com/blog/vm-vs-containers}
+		\vspace{100mm}
+	\end{frame}
 
 	\subsection {Deployment and Hosting}
 		\begin{frame}
@@ -1159,7 +1235,7 @@
 					\item<3-> Load balancing network traffic across service instances. 
 					\item<4-> Service discovery
 					\item<5-> Scaling the number of instances of a service
-					\item<6->
+					\item<6->[]
 						\vspace{5mm}
 						\begin{columns}[c]
 							\column{.30\textwidth} 
@@ -1167,6 +1243,7 @@
 							\begin{itemize}
 								\item Docker Swarm
 								\item Kubernates
+								\item AWS ECS
 								\item Service Fabric
 								\item Openshift
 							\end{itemize}
