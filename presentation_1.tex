@@ -1258,15 +1258,57 @@
 		\end{frame}
 	
 		\begin{frame}
-			\frametitle{Cloud Services' Deployment}
-				The old and known style is called On-Premise deployment, and it has its cons.\\
-				Today we have awesome cloud tools for deployment.
-				\begin{itemize}
-					\item AWS
-					\item Microsoft Azure
-				\end{itemize}
-				\vspace{100mm}
+			\frametitle{Real Example}
+			\textit{Continuous Integration, and Deployment are your friends}
+			
+			\vspace{1mm}
+			
+			\begin{figure}[h]
+				\includegraphics[width=110mm, height=70mm, scale=1]{img/all-in-one.png}
+			\end{figure}\vspace{1mm}
+			
 		\end{frame}
+	
+	\begin{frame}
+		\frametitle{Infrastructure as Code \textbf{"IaC"}}
+		Problem Statement
+		\begin{itemize}
+			\item<1->[] \scriptsize{Building and running servers manually is headache, and lead usually to unexpected errors that require extra time which might not be planned!}
+			\vspace{1mm}
+			\item<2-> \scriptsize{The reason is Operator/SysAdmin usually uses \textbf{Imperative} way on building his job}
+			\item<3-> \scriptsize{Everything should be automated and following pipelines}
+			\item<4-> \scriptsize{It is better to use \textbf{Declarative} way on building such pipelines}
+			\item<4->[]
+			\begin{figure}[h]
+				\includegraphics[width=100mm,height= 47mm, scale=1]{img/service-delivery-platform.png}
+				\caption{Service Delivery Platform}
+			\end{figure}
+		\end{itemize}
+	\end{frame}
+
+
+	\begin{frame}
+		\frametitle{Infrastructure as Code \textbf{"IaC"}}
+		\begin{itemize}
+			\item<1-> \scriptsize{Writing declarative files can be reviewed, enhanced and  apply versioning on it}
+			\item<2-> \scriptsize{\alert{But how to ensure quality of \textbf{code}?}}
+			\item<3-> \scriptsize{Answer: \textbf{Testing}}
+			\item<4-> \scriptsize{Techniques used in normal development should be applied, e.g Unit \& Integration Test}. 
+				\begin{itemize} 
+					\item \scriptsize{\textbf{Rubocop} Formatter}
+					\item \scriptsize{\textbf{Foodcritic} Linter}
+					\item \scriptsize{\textbf{ChefSpec} Test Simulator and Coverage}
+					\item \scriptsize{\textbf{ServerSpec} and \textbf{TestInfra} for Integration testing}
+				\end{itemize}
+			\item<5-> \scriptsize{The output of Build phase is the deliverable (Binaries), once it is created, never try to change it; this is called \textbf{Immutable Deployment}}
+			\item<6-> \scriptsize{There will be always kind of tension between Dev team and Ops team; especially if Ops team is applying SRE principles}
+			\item<1->[]
+			\begin{figure}[h]
+				\includegraphics[width=100mm,height= 40mm, scale=1]{img/service-delivery-platform.png}
+			\end{figure}
+		\end{itemize}
+	\end{frame}
+	
 
 	\subsection {Monitoring}
 		\begin{frame}
@@ -1283,6 +1325,18 @@
 				\end{itemize}
 			\vspace{100mm}
 		\end{frame}
+	
+	\begin{frame}
+		\frametitle{Common Issues}
+		One of the most hassle part in Microservices is \textbf{tracing}! What, How and Why this error occurred? 
+		\begin{itemize}
+			\item No common knowledge \\
+			Service A sends to Service B, but response from Service B never reach back; \textit{solution for such case can be} \textbf{Retry}
+			\item Service is not available at current moment! \\
+			\textit{Solution for such case can be \textbf{Queue system}}
+		\end{itemize}
+		\vspace{100mm}
+	\end{frame}
 	
 		
 
