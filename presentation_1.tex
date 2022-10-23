@@ -203,7 +203,7 @@
 %--------------------------------------------------
 \section {Microservices Core Principles}
 	\subsection {Communication Design}
-		\begin{frame}
+		\begin{frame}[label=cd]
 			\frametitle{Communication Design}
 				\begin{block} {HTTP communication}
 					Also known as \textbf{Synchronous communication}, the calls between services is a viable option for \textbf{service-to-service} via REST API.
@@ -1271,44 +1271,167 @@
 	
 	\begin{frame}
 		\frametitle{Infrastructure as Code \textbf{"IaC"}}
+		What is Infrastructure?
+		\begin{itemize}
+			\item<2->[] \scriptsize{The components required to operate and manage IT environments like  hardware, software, networking components, an operating system, etc.}
+		\end{itemize}
+	\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Infrastructure as Code \textbf{"IaC"}}
+		What is Infrastructure?
+		\begin{itemize}
+			\item<1->[] \scriptsize{The components required to operate and manage IT environments like  hardware, software, networking components, an operating system, etc.}
+		\end{itemize}
+		
 		Problem Statement
 		\begin{itemize}
-			\item<1->[] \scriptsize{Building and running servers manually is headache, and lead usually to unexpected errors that require extra time which might not be planned!}
+			\item<1->[] \scriptsize{Building and running servers manually using scripts or UI consoles is headache, and usually lead to configuration drift, and unexpected errors that require extra time which might not be planned!}
 			\vspace{1mm}
 			\item<2-> \scriptsize{The reason is Operator/SysAdmin usually uses \textbf{Imperative} way on building his job}
 			\item<3-> \scriptsize{Everything should be automated and following pipelines}
 			\item<4-> \scriptsize{It is better to use \textbf{Declarative} way on building such pipelines}
-			\item<4->[]
+			\item<5-> \scriptsize{Writing declarative files (JSON, YAML or XML) can be reviewed, enhanced and  apply versioning on it like normal development}
+			\item<6-> \scriptsize{IaC should be always \textbf{Idempotent} this will enable Ops team to test their work on production-like environment before actual production}
+			\item<7-> \scriptsize{Should I (SysAdmin/Operator) learn programming to apply IaC?}
+		\end{itemize}
+	\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Infrastructure as Code \textbf{"IaC"}}
 			\begin{figure}[h]
-				\includegraphics[width=100mm,height= 47mm, scale=1]{img/service-delivery-platform.png}
+				\includegraphics[width=100mm,height= 70mm, scale=1]{img/service-delivery-platform.png}
 				\caption{Service Delivery Platform}
 			\end{figure}
-		\end{itemize}
 	\end{frame}
 
 
 	\begin{frame}
 		\frametitle{Infrastructure as Code \textbf{"IaC"}}
 		\begin{itemize}
-			\item<1-> \scriptsize{Writing declarative files can be reviewed, enhanced and  apply versioning on it}
-			\item<2-> \scriptsize{\alert{But how to ensure quality of \textbf{code}?}}
-			\item<3-> \scriptsize{Answer: \textbf{Testing}}
-			\item<4-> \scriptsize{Techniques used in normal development should be applied, e.g Unit \& Integration Test}. 
+			\item<1-> \scriptsize{\alert{But how to ensure quality of \textbf{code}?}}
+			\item<2-> \scriptsize{Answer: \textbf{Testing}}
+			\item<3-> \scriptsize{Techniques used in normal development should be applied, e.g Unit \& Integration Test}. 
 				\begin{itemize} 
-					\item \scriptsize{\textbf{Rubocop} Formatter}
-					\item \scriptsize{\textbf{Foodcritic} Linter}
+					\item \scriptsize{\textbf{Rubocop} Formatter and \textbf{Foodcritic} Linter}
 					\item \scriptsize{\textbf{ChefSpec} Test Simulator and Coverage}
 					\item \scriptsize{\textbf{ServerSpec} and \textbf{TestInfra} for Integration testing}
 				\end{itemize}
-			\item<5-> \scriptsize{The output of Build phase is the deliverable (Binaries), once it is created, never try to change it; this is called \textbf{Immutable Deployment}}
-			\item<6-> \scriptsize{There will be always kind of tension between Dev team and Ops team; especially if Ops team is applying SRE principles}
+			\item<4-> \scriptsize{The output of Build phase is the deliverable (Binaries), once it is created, should never be changed; this is called \textbf{Immutable Deployment}}
+			\item<5-> \scriptsize{There will be always kind of tension between Dev team and Ops team; especially if Ops team is applying SRE principles}
 			\item<1->[]
 			\begin{figure}[h]
-				\includegraphics[width=100mm,height= 40mm, scale=1]{img/service-delivery-platform.png}
+				\includegraphics[width=100mm,height= 47mm, scale=1]{img/service-delivery-platform.png}
+				\caption{Service Delivery Platform}
 			\end{figure}
 		\end{itemize}
 	\end{frame}
 	
+	\againframe{cd}
+	
+	
+	\begin{frame}
+		\frametitle{Communication Design}
+		Online purchase example
+		\begin{itemize}
+			\item<2-> \scriptsize{Save it}
+			\item<3-> \scriptsize{Check Duplicates} 
+			\item<4-> \scriptsize{Charge Customer}
+			\item<5-> \scriptsize{Send Email to customer}
+			\item<6-> \scriptsize{Audit Order details }
+			
+			
+			\item<2->[] 
+			\lstinputlisting[language=Java]{order-scenario.java}
+		\end{itemize}
+	\vspace{100mm}
+	\end{frame}
+
+
+	\begin{frame}
+		\frametitle{Communication Design}
+		Online purchase Issues
+		\begin{itemize}
+			\item<2-> \scriptsize{\alert{Time Consuming}}
+			\item<3-> \scriptsize{\alert{Resource Consuming}} 
+			\item<4-> \scriptsize{\alert{Not scalable}}
+			
+			\item<1->[] 
+			\lstinputlisting[language=Java]{order-scenario.java}
+		\end{itemize}
+		\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Communication Design}
+		Online purchase example
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 60mm, scale=1]{img/order-flow.png}
+		\end{figure}
+		\vspace{100mm}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Communication Design}
+		Online purchase example [Kafka-Architecture]
+		\begin{figure}[h]
+			\includegraphics[width=100mm,height= 70mm, scale=1]{img/kafka-architecture.png}
+		\end{figure}
+		\vspace{100mm}
+	\end{frame}
+
+	
+	\begin{frame}
+		\frametitle{Scalability and High Availability}
+		Scalability is about your system capability to scale (In or Out) in order to handle workload and throughput
+		\begin{itemize}
+			\item<2-> Vertical Scaling
+				\begin{itemize} 
+					\item<3-> \scriptsize{Database scaling for example by adding more CPU and Memory power} 
+					\item<4-> \scriptsize{Cons: \alert {Can't work in all cases, expensive} }
+				\end{itemize}
+			\item<5-> Horizontal Scaling
+				\begin{itemize} 
+					\item<6-> \scriptsize{Increase numbers of workers, with same power capacity} 
+					\item<7-> \scriptsize{Good choice for distributed systems}
+					\item<8-> \scriptsize{Cons: \alert {Network Latency and Management Complexity} }
+				\end{itemize}
+		
+			\item<9-> High Availability
+			\begin{itemize} 
+				\item<10-> \scriptsize{The availablity percentage of your service within period of time} 
+				\item<11-> \scriptsize{SLA is 99.99\%}
+			\end{itemize}
+		
+		\end{itemize}
+		\vspace{100mm}
+	\end{frame}
+
+
+	\begin{frame}
+		\frametitle{Scalability and High Availability}
+		\begin{figure}[h]
+			\includegraphics[width=50mm, height=50mm, scale=1]{img/Scalability-1.jpg}
+		\end{figure}	
+	\end{frame}
+
+	\begin{frame}
+		Horizontal Scaling
+		\frametitle{Scalability and High Availability}
+		\begin{figure}[h]
+			\includegraphics[width=70mm, height=50mm, scale=1]{img/horizontal-scaling.jpg}
+		\end{figure}	
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Scalability and High Availability}
+		Fault Tolerant
+		\begin{figure}[h]
+			\includegraphics[width=100mm, height=70mm, scale=1]{img/High-Availability.jpg}
+		\end{figure}	
+	\end{frame}	
 
 	\subsection {Monitoring}
 		\begin{frame}

@@ -168,29 +168,51 @@
 \headcommand {\beamer@framepages {157}{162}}
 \headcommand {\slideentry {2}{7}{2}{163/163}{Deployment and Hosting}{0}}
 \headcommand {\beamer@framepages {163}{163}}
-\headcommand {\slideentry {2}{7}{3}{164/167}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {164}{167}}
-\headcommand {\slideentry {2}{7}{4}{168/173}{Deployment and Hosting}{0}}
-\headcommand {\beamer@framepages {168}{173}}
-\headcommand {\beamer@subsectionpages {157}{173}}
-\headcommand {\beamer@subsectionentry {0}{2}{8}{174}{Monitoring}}
-\headcommand {\slideentry {2}{8}{1}{174/174}{Monitoring}{0}}
-\headcommand {\beamer@framepages {174}{174}}
-\headcommand {\slideentry {2}{8}{2}{175/175}{Monitoring}{0}}
-\headcommand {\beamer@framepages {175}{175}}
-\headcommand {\beamer@sectionpages {17}{175}}
-\headcommand {\beamer@subsectionpages {174}{175}}
-\headcommand {\sectionentry {3}{Microservices in Actions}{176}{Microservices in Actions}{0}}
-\headcommand {\beamer@subsectionpages {176}{175}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{176}{Project Structure}}
-\headcommand {\beamer@subsectionpages {176}{175}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{176}{Framework and Tools}}
-\headcommand {\slideentry {3}{2}{1}{176/176}{Framework and Tools}{0}}
-\headcommand {\beamer@framepages {176}{176}}
-\headcommand {\slideentry {3}{2}{2}{177/177}{Framework and Tools}{0}}
-\headcommand {\beamer@framepages {177}{177}}
-\headcommand {\beamer@partpages {1}{177}}
-\headcommand {\beamer@subsectionpages {176}{177}}
-\headcommand {\beamer@sectionpages {176}{177}}
-\headcommand {\beamer@documentpages {177}}
-\headcommand {\gdef \inserttotalframenumber {77}}
+\headcommand {\slideentry {2}{7}{3}{164/165}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {164}{165}}
+\headcommand {\slideentry {2}{7}{4}{166/172}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {166}{172}}
+\headcommand {\slideentry {2}{7}{5}{173/173}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {173}{173}}
+\headcommand {\slideentry {2}{7}{6}{174/178}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {174}{178}}
+\headcommand {\slideentry {2}{7}{7}{179/179}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {179}{179}}
+\headcommand {\slideentry {2}{7}{8}{180/185}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {180}{185}}
+\headcommand {\slideentry {2}{7}{9}{186/189}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {186}{189}}
+\headcommand {\slideentry {2}{7}{10}{190/190}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {190}{190}}
+\headcommand {\slideentry {2}{7}{11}{191/191}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {191}{191}}
+\headcommand {\slideentry {2}{7}{12}{192/202}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {192}{202}}
+\headcommand {\slideentry {2}{7}{13}{203/203}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {203}{203}}
+\headcommand {\slideentry {2}{7}{14}{204/204}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {204}{204}}
+\headcommand {\slideentry {2}{7}{15}{205/205}{Deployment and Hosting}{0}}
+\headcommand {\beamer@framepages {205}{205}}
+\headcommand {\beamer@subsectionpages {157}{205}}
+\headcommand {\beamer@subsectionentry {0}{2}{8}{206}{Monitoring}}
+\headcommand {\slideentry {2}{8}{1}{206/206}{Monitoring}{0}}
+\headcommand {\beamer@framepages {206}{206}}
+\headcommand {\slideentry {2}{8}{2}{207/207}{Monitoring}{0}}
+\headcommand {\beamer@framepages {207}{207}}
+\headcommand {\beamer@sectionpages {17}{207}}
+\headcommand {\beamer@subsectionpages {206}{207}}
+\headcommand {\sectionentry {3}{Microservices in Actions}{208}{Microservices in Actions}{0}}
+\headcommand {\beamer@subsectionpages {208}{207}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{208}{Project Structure}}
+\headcommand {\beamer@subsectionpages {208}{207}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{208}{Framework and Tools}}
+\headcommand {\slideentry {3}{2}{1}{208/208}{Framework and Tools}{0}}
+\headcommand {\beamer@framepages {208}{208}}
+\headcommand {\slideentry {3}{2}{2}{209/209}{Framework and Tools}{0}}
+\headcommand {\beamer@framepages {209}{209}}
+\headcommand {\beamer@partpages {1}{209}}
+\headcommand {\beamer@subsectionpages {208}{209}}
+\headcommand {\beamer@sectionpages {208}{209}}
+\headcommand {\beamer@documentpages {209}}
+\headcommand {\gdef \inserttotalframenumber {88}}
