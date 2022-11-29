@@ -35,7 +35,7 @@
 \lstdefinestyle{mystyle}{
 	backgroundcolor=\color{backcolour},   
 	commentstyle=\color{codegreen},
-	keywordstyle=\color{magenta},
+	keywordstyle=\color{zmagenta},
 	numberstyle=\tiny\color{codegray},
 	stringstyle=\color{codepurple},
 	basicstyle=\ttfamily\footnotesize,
@@ -1432,37 +1432,6 @@
 			\includegraphics[width=100mm, height=70mm, scale=1]{img/High-Availability.jpg}
 		\end{figure}	
 	\end{frame}	
-
-	\subsection {Monitoring}
-		\begin{frame}
-			\frametitle{Monitoring}
-				One of the most hassle part in Microservices is \textbf{tracing}! What, How and Why this error occurred? 
-				\begin{itemize}
-					\item Logging 
-					\item Tracing
-						\begin{itemize}
-							\item \scriptsize{Request may span multiple microservices, you should have some tracker over this.}
-							\item \scriptsize{Trace ID is a good way to do that}
-						\end{itemize}
-					\item Monitor matrices 
-				\end{itemize}
-			\vspace{100mm}
-		\end{frame}
-	
-	\begin{frame}
-		\frametitle{Common Issues}
-		One of the most hassle part in Microservices is \textbf{tracing}! What, How and Why this error occurred? 
-		\begin{itemize}
-			\item No common knowledge \\
-			Service A sends to Service B, but response from Service B never reach back; \textit{solution for such case can be} \textbf{Retry}
-			\item Service is not available at current moment! \\
-			\textit{Solution for such case can be \textbf{Queue system}}
-		\end{itemize}
-		\vspace{100mm}
-	\end{frame}
-	
-		
-
 
 \section{Microservices in Actions}
 	\subsection {Project Structure}

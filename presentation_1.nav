@@ -194,25 +194,19 @@
 \headcommand {\beamer@framepages {204}{204}}
 \headcommand {\slideentry {2}{7}{15}{205/205}{Deployment and Hosting}{0}}
 \headcommand {\beamer@framepages {205}{205}}
+\headcommand {\beamer@sectionpages {17}{205}}
 \headcommand {\beamer@subsectionpages {157}{205}}
-\headcommand {\beamer@subsectionentry {0}{2}{8}{206}{Monitoring}}
-\headcommand {\slideentry {2}{8}{1}{206/206}{Monitoring}{0}}
+\headcommand {\sectionentry {3}{Microservices in Actions}{206}{Microservices in Actions}{0}}
+\headcommand {\beamer@subsectionpages {206}{205}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{206}{Project Structure}}
+\headcommand {\beamer@subsectionpages {206}{205}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{206}{Framework and Tools}}
+\headcommand {\slideentry {3}{2}{1}{206/206}{Framework and Tools}{0}}
 \headcommand {\beamer@framepages {206}{206}}
-\headcommand {\slideentry {2}{8}{2}{207/207}{Monitoring}{0}}
+\headcommand {\slideentry {3}{2}{2}{207/207}{Framework and Tools}{0}}
 \headcommand {\beamer@framepages {207}{207}}
-\headcommand {\beamer@sectionpages {17}{207}}
+\headcommand {\beamer@partpages {1}{207}}
 \headcommand {\beamer@subsectionpages {206}{207}}
-\headcommand {\sectionentry {3}{Microservices in Actions}{208}{Microservices in Actions}{0}}
-\headcommand {\beamer@subsectionpages {208}{207}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{208}{Project Structure}}
-\headcommand {\beamer@subsectionpages {208}{207}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{208}{Framework and Tools}}
-\headcommand {\slideentry {3}{2}{1}{208/208}{Framework and Tools}{0}}
-\headcommand {\beamer@framepages {208}{208}}
-\headcommand {\slideentry {3}{2}{2}{209/209}{Framework and Tools}{0}}
-\headcommand {\beamer@framepages {209}{209}}
-\headcommand {\beamer@partpages {1}{209}}
-\headcommand {\beamer@subsectionpages {208}{209}}
-\headcommand {\beamer@sectionpages {208}{209}}
-\headcommand {\beamer@documentpages {209}}
-\headcommand {\gdef \inserttotalframenumber {88}}
+\headcommand {\beamer@sectionpages {206}{207}}
+\headcommand {\beamer@documentpages {207}}
+\headcommand {\gdef \inserttotalframenumber {86}}

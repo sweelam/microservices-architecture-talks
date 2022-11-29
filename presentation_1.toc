@@ -1,0 +1,16 @@
+\beamer@sectionintoc {1}{From Monolithic to Microservices}{7}{0}{1}
+\beamer@subsectionintoc {1}{1}{Definition}{7}{0}{1}
+\beamer@subsectionintoc {1}{2}{Why Microservices?}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Microservices vs Monolithic}{13}{0}{1}
+\beamer@subsectionintoc {1}{4}{Microservices Architecture}{15}{0}{1}
+\beamer@sectionintoc {2}{Microservices Core Principles}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Communication Design}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{API Gateway}{21}{0}{2}
+\beamer@subsectionintoc {2}{3}{Service Discovery}{24}{0}{2}
+\beamer@subsectionintoc {2}{4}{Externalized Configurations}{36}{0}{2}
+\beamer@subsectionintoc {2}{5}{Circuit Breaker Pattern}{38}{0}{2}
+\beamer@subsectionintoc {2}{6}{Data Sharing and Management}{80}{0}{2}
+\beamer@subsectionintoc {2}{7}{Deployment and Hosting}{157}{0}{2}
+\beamer@sectionintoc {3}{Microservices in Actions}{206}{0}{3}
+\beamer@subsectionintoc {3}{1}{Project Structure}{206}{0}{3}
+\beamer@subsectionintoc {3}{2}{Framework and Tools}{206}{0}{3}
